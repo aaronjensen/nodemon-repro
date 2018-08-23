@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "nodemon --signal SIGINT --watch webpack.config.js --exec webpack-serve"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3",
+    "webpack": "^4.17.1",
+    "webpack-serve": "^2.0.2"
+  }
+}
